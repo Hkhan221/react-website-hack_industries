@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "image": "https://umaravilaportfolio.weebly.com/uploads/1/3/8/4/138425047/sports-pack_orig.png",
+        "title": "Sports"
+    },
+    {
+        "id": 2,
+        "image": "https://umaravilaportfolio.weebly.com/uploads/1/3/8/4/138425047/accessories-pack_orig.png",
+        "title": "Accessories"
+    },
+    {
+        "id": 3,
+        "image": "https://umaravilaportfolio.weebly.com/uploads/1/3/8/4/138425047/weapon-pack_orig.png",
+        "title": "Weapons"
+    },
+    {
+        "id": 4,
+        "image": "https://umaravilaportfolio.weebly.com/uploads/1/3/8/4/138425047/devices-pack_orig.png",
+        "title": "Devices"
+    }
+]
