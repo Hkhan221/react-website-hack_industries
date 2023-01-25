@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaBars } from 'react-icons/fa';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
+import { te } from './';
 
 const Navbar = () => {
   return (
@@ -29,6 +30,7 @@ const Navbar = () => {
             <NavBtnLink to='signin'>Sign in</NavBtnLink>
           </NavBtn>    
         </NavbarContainer>
+{/*         <SearchBar to='search'>Search</SearchBar> */}
       </Nav>
     </div>
   );
