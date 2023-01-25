@@ -2,6 +2,15 @@ body {
     background-color: rgb(209, 204, 204);
 }
 
+.searchIcon {
+    position: absolute;
+    right: 27%;
+}
+
+.searchIcon:hover {
+    color: #1C5D99;
+}
+
 .templateContainer {
     margin: 5% 0;
 }
@@ -19,6 +28,8 @@ body {
     outline: none;
     border-radius: 10px;
 }
+
+
 
 .templateContainer .template_Container {
     display: flex;

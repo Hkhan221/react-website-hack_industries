@@ -114,3 +114,10 @@ export const NavMenu = styled.ul`
       color: #010606;
     }
   `;
+
+/*   export const SearchBar = styled.input`
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+  `; */
