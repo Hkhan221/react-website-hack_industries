@@ -9,14 +9,14 @@ import './components/Search/search.css';
 import data from "./TemplateData.json";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
-import styles from "./components/Search/search.css"
+import "./components/Search/search.css"
 import Sidebar from './components/Sidebar';
 
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   return (
-    <Router> 
+    <Router>
       <Sidebar/>
       <Navbar />
       {/* Search */}
@@ -25,14 +25,13 @@ function App() {
               <input id="searchInput" type="text" placeholder="Search..." onChange={(event) => {
                   setSearchTerm(event.target.value);
               }} />
-              <div className={ styles } class="searchIcon">
+              <div className="searchIcon">
                 <FontAwesomeIcon icon={faSearch} className=""></FontAwesomeIcon>
-              </div> 
+              </div>
           </div>
-          {/* Search Bar functionality */}
           <div className="template_Container">
               {
-              data 
+              data
                 .filter((val) => {
                 if(searchTerm == ""){
                     return val;
@@ -45,7 +44,7 @@ function App() {
                         <div className="template" key={val.id}>
                             <img src={val.image} alt="" />
                             <h3>{val.title}</h3>
-                        </div> 
+                        </div>
                     )
                 })
               }
