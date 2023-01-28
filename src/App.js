@@ -7,12 +7,14 @@ import {BrowserRouter as Router} from 'react-router-dom'
 // search bar
 import './components/Search/search.css';
 import data from "./TemplateData.json";
+import Sidebar from './components/Sidebar';
 
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   return (
     <Router> 
+      <Sidebar/>
       <Navbar />
       {/* Search */}
         <div className="templateContainer">
