@@ -10,11 +10,14 @@ import data from "./TemplateData.json";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import styles from "./components/Search/search.css"
+import Sidebar from './components/Sidebar';
+
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   return (
     <Router> 
+      <Sidebar/>
       <Navbar />
       {/* Search */}
         <div className="templateContainer">
