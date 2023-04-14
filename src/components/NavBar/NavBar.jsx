@@ -26,8 +26,8 @@ function NavBar() {
       });
     }, []);
   return (
- <div>
-   <nav className={showNav ? "navbar-container" : "navbar-container active"}>
+  <div>
+    <nav className={showNav ? "navbar-container" : "navbar-container active"}>
       <a href="/" className="navbar-logo">
         <DiJqueryLogo />
         <p>React Navbar</p>
