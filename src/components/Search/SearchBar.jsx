@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import './SearchBar.scss';
-import data from "@/TemplateData.json";
+/* import data from "@/TemplateData.json"; */
 
 export default function SearchBar() {
     const [searchTerm, setSearchTerm] = useState();
@@ -16,7 +16,7 @@ export default function SearchBar() {
               setSearchTerm(event.target.value);
             }}
           />
-{          <div className="template_Container">
+{/* {          <div className="template_Container">
             {
               data 
                 .filter((val) => {
@@ -35,7 +35,7 @@ export default function SearchBar() {
                   )
                 })
             }
-          </div>}
+          </div>} */}
           <div className="searchIcon">
             <FontAwesomeIcon icon={faSearch} className=""></FontAwesomeIcon>
           </div>

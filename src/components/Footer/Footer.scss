@@ -1,0 +1,79 @@
+:root {
+    --color1: #1C5D99;
+    --color2: #FFFFFF;
+    --color3: #222222;
+}
+
+footer {
+    margin: 0.1rem;
+    padding: 1rem;
+    background-color: var(--color2);
+}
+
+a {
+    text-decoration: none;
+}
+
+.icons {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+span {
+    padding: 0.25rem;
+}
+
+p,
+#terms {
+    font-size: 0.1rem;
+}
+
+select {
+    border-radius: 0.5rem;
+}
+
+option {
+    text-align: center;
+}
+
+select,
+option {
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
+#terms > a,
+#contact,
+.icons {
+    color: var(--color1);
+}
+
+#contact:hover,
+#terms > a:hover,
+.icons:hover {
+    color: var(--color3);
+}
+
+#main {
+    text-align: center;
+    margin: auto;
+}
+
+p, #terms {
+    font-size: 1rem;
+}
+
+#contact {
+    float: right;
+}
+
+#terms {
+    display: inline-block;
+    margin: 1rem;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
