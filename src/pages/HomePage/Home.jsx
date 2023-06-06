@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../data/TemplateData.json";
 import SearchBar from "../../components/Search/SearchBar";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
   return (
