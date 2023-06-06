@@ -1,66 +1,23 @@
+//Colours
 :root {
     --color1: #1C5D99;
     --color2: #FFFFFF;
     --color3: #222222;
 }
 
-footer {
-    margin: 0.1rem;
+//Footer
+footer{
+    position: relative;
+    width: 100%;
+    margin: auto;
     padding: 1rem;
     background-color: var(--color2);
 }
 
-a {
-    text-decoration: none;
-}
-
-.icons {
-    font-size: 2rem;
-    margin: 0.5rem;
-}
-
-span {
-    padding: 0.25rem;
-}
-
-p,
-#terms {
-    font-size: 0.1rem;
-}
-
-select {
-    border-radius: 0.5rem;
-}
-
-option {
-    text-align: center;
-}
-
-select,
-option {
-    color: var(--color2);
-    background-color: var(--color1);
-}
-
-#terms > a,
-#contact,
-.icons {
-    color: var(--color1);
-}
-
-#contact:hover,
-#terms > a:hover,
-.icons:hover {
-    color: var(--color3);
-}
-
+//Margin and Paddings of Elements
 #main {
     text-align: center;
     margin: auto;
-}
-
-p, #terms {
-    font-size: 1rem;
 }
 
 #contact {
@@ -70,10 +27,80 @@ p, #terms {
 #terms {
     display: inline-block;
     margin: 1rem;
+    font-size: 0.86rem;
 }
 
-footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.footer-line {
+    padding: 0.25rem;
+}
+
+//Links and Icons
+#contact,
+.footer-links,
+.footer-icons {
+    color: var(--color1);
+}
+
+#contact:hover,
+.footer-icons:hover,
+.footer-links:hover {
+    color: var(--color3);
+}
+
+.footer-icons:active {
+    color: var(--color1);
+}
+
+.footer-links {
+    text-decoration: none;
+}
+
+.footer-icons {
+    font-size: 2rem;
+    margin: 1rem 0.5rem;
+}
+
+//Drop Down List
+.footer-select,
+.footer-option {
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
+.footer-select {
+    border-radius: 0.5rem;
+}
+
+.footer-option {
+    text-align: center;
+}
+
+//Mobile View
+@media (max-width: 920px) {
+    //Footer Size
+    footer {
+        height: 25%;
+        padding: 0.5rem;
+    }
+
+    //Font size
+    #contact {
+        font-size: 0.75rem;
+    }
+
+    #terms, .footer-paragraph  {
+        font-size: 0.45rem;
+    }
+
+    .footer-icons {
+        font-size: 1.5rem;
+    }
+
+    .footer-header {
+        font-size: 1rem;
+    }
+
+    .footer-select {
+        font-size: 0.5rem;
+    }
 }

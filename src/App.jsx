@@ -16,7 +16,6 @@ function App() {
     <>
     <BrowserRouter>
       <NavBar />    
-      
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/products" element={<Products />}></Route>
@@ -27,7 +26,6 @@ function App() {
     </BrowserRouter>
     <Footer />
     </>
-    
   );
 }
 
