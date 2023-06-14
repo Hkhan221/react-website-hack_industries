@@ -3,6 +3,8 @@ import './NavBar.scss'
 import { DiJqueryLogo } from "react-icons/di";
 import { FiMenu } from "react-icons/fi";
 import { GrClose } from "react-icons/gr";
+import SearchBar from "../../components/Search/SearchBar";
+import '../Search/SearchBar.scss'
 
 function NavBar() {
     const [click, setClicked] = useState(false);
@@ -35,6 +37,7 @@ function NavBar() {
       <div className="menu-icon" onClick={handleClick}>
         {click ? <GrClose /> : <FiMenu />}
       </div>
+      <SearchBar/>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li className="nav-link-items" onClick={handleCloseMobileMenu}>
           <a href="/" className="nav-link">

@@ -11,37 +11,37 @@ body {
 
 //Phone View Search bar
 @media (max-width: 975px) {
-    .templateContainer>.searchInput_Container {
+    .searchInput_Container {
             visibility: hidden;
+            width: 0%;
         }
 }
 
 //SearchBar
 .searchIcon {
     position: absolute;
-    right: 36%;
+    left: 80%;
+    padding: 10px;
+    margin: auto;
 }
 
 .searchIcon:hover {
     color: var(--color1);
 }
 
-.templateContainer {
-    margin: 5% 0;
-}
-
-.templateContainer>.searchInput_Container {
+.searchInput_Container {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin-left: auto;
 /*     position: absolute;
     top: 0.6rem;
     right: 24rem; */
 }
 
-.templateContainer>.searchInput_Container input {
-    width: 30%;
+#searchInput {
+    width: 100%;
     padding: 5px;
     outline: none;
     border-radius: 10px;
