@@ -19,14 +19,6 @@
     border-radius: 10px;
 }
 
-.cube {
-    height: 81%;
-    width: 2%;
-    background-color:#1C5D99;
-    border-radius: 10px;
-    z-index: 10;
-}
-
 .right-arrow {
     position: absolute;
     height: 80%;
@@ -35,7 +27,7 @@
     top: 9.70%;
     right: 23.5rem;
     opacity: 50%;
-    background-color: var(--color2);
+    background-color: var(--color1);
     z-index: 10;
     cursor: pointer;
     user-select: none;
@@ -49,14 +41,14 @@
     top: 9.70%;
     left: 23.5rem;
     opacity: 50%;
-    background-color: var(--color2);
+    background-color: var(--color1);
     z-index: 10;
     cursor: pointer;
     user-select: none;
 }
 
 .right-arrow:hover, .left-arrow:hover {
-    background-color: var(--color1);
+    background-color: var(--color2);
     transition: all 0.25s linear;
 }
 
