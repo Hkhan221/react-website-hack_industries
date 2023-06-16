@@ -1,0 +1,103 @@
+//Colors
+:root {
+    --color1: #1C5D99;
+    --color2: #FFFFFF;
+    --color3: #222222;
+}
+
+.slider {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.cube {
+    height: 81%;
+    width: 2%;
+    background-color:#1C5D99;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+.right-arrow {
+    position: absolute;
+    height: 80%;
+    width: 2.5%;
+    border-radius: 10px;
+    top: 9.70%;
+    right: 23.5rem;
+    opacity: 50%;
+    background-color: var(--color2);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left-arrow {
+    position: absolute;
+    height: 80%;
+    width: 2.5%;
+    border-radius: 10px;
+    top: 9.70%;
+    left: 23.5rem;
+    opacity: 50%;
+    background-color: var(--color2);
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.right-arrow:hover, .left-arrow:hover {
+    background-color: var(--color1);
+    transition: all 0.25s linear;
+}
+
+.right-arrow:active, .left-arrow:active {
+    background-color: var(--color3);
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+@media (max-width: 1080px) {
+    .slider {
+        height: 30vh;
+    }
+    
+    .image {
+        width: 15rem;
+        height: auto;
+    }
+    
+    .right-arrow {
+        height: 95%;
+        width: 5%;
+        border-radius: 5px;
+        top: 1%;
+        right: 25px;
+    }
+    
+    .left-arrow {
+        height: 95%;
+        width: 5%;
+        border-radius: 5px;
+        top: 1%;
+        left: 25px;
+    }
+}
