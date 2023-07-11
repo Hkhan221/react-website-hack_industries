@@ -8,10 +8,8 @@ import "./App.scss";
 import Products from "./pages/Products/Products.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import Slider from "./components/Slider/Slider.jsx";
+
 // Search bar and Icons
-
-
-
 function App() {
   return (
     <>
@@ -25,7 +23,6 @@ function App() {
     <Route path="/register" element={<Register/>}></Route> */}
       </Routes>
     </BrowserRouter>
-    <Slider/>
     <Footer />
     </>
   );

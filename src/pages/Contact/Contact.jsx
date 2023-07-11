@@ -1,7 +1,10 @@
-import React from 'react'
+import React from 'react';
+import FAQ from '../FAQ/FAQ';
 
 export default function Contant() {
   return (
-    <h1>Contact</h1>
+    <div>
+      <FAQ/>
+    </div>
   )
 }

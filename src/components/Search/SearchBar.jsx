@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import './SearchBar.scss';
-/* import data from "@/TemplateData.json"; */
+/* import data from "/src/data/TemplateData.json"; */
 
 export default function SearchBar() {
     const [searchTerm, setSearchTerm] = useState();
