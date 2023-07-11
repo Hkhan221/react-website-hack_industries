@@ -1,6 +1,6 @@
 import React from "react";
 import data from "../../data/TemplateData.json";
-import Footer from "../../components/Footer/Footer";
+import Slider from "../../components/Slider/Slider";
 
 function Home() {
   return (
@@ -18,6 +18,7 @@ function Home() {
             })}
         </div>
       </div>
+      <Slider/>
     </div>
   );
 }
