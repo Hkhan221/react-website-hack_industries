@@ -4,10 +4,13 @@ import { BrowserRouter,Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Home from './pages/HomePage/Home.jsx'
-import "./App.scss";
 import Products from "./pages/Products/Products.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
 import Slider from "./components/Slider/Slider.jsx";
+
+//CSS
+import "./pages/FAQ/FAQ.jsx";
+import "./App.scss";
 
 // Search bar and Icons
 function App() {

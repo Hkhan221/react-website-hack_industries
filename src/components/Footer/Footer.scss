@@ -15,16 +15,16 @@ footer{
 }
 
 //Margin and Paddings of Elements
-#main {
+.footer-main-content {
     text-align: center;
     margin: auto;
 }
 
-#contact {
+.footer-contacts {
     float: right;
 }
 
-#terms {
+.footer-terms {
     display: inline-block;
     margin: 1rem;
     font-size: 0.86rem;
@@ -35,13 +35,13 @@ footer{
 }
 
 //Links and Icons
-#contact,
+.footer-contacts,
 .footer-links,
 .footer-icons {
     color: var(--color1);
 }
 
-#contact:hover,
+.footer-contacts:hover,
 .footer-icons:hover,
 .footer-links:hover {
     color: var(--color3);
@@ -73,34 +73,4 @@ footer{
 
 .footer-option {
     text-align: center;
-}
-
-//Mobile View
-@media (max-width: 920px) {
-    //Footer Size
-    footer {
-        height: 25%;
-        padding: 0.5rem;
-    }
-
-    //Font size
-    #contact {
-        font-size: 0.75rem;
-    }
-
-    #terms, .footer-paragraph  {
-        font-size: 0.45rem;
-    }
-
-    .footer-icons {
-        font-size: 1.5rem;
-    }
-
-    .footer-header {
-        font-size: 1rem;
-    }
-
-    .footer-select {
-        font-size: 0.5rem;
-    }
 }
