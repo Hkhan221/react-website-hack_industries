@@ -12,8 +12,8 @@ function Footer(){
                 <option className="footer-option" value="pet">Spanish</option>
                 <option className="footer-option" value="school">German</option>
             </select>
-            <a id="contact" className="footer-links" href="#"><span>Contact Us</span></a>
-            <div id="main">
+            <a className="footer-contacts footer-links" href="#"><span>Contact Us</span></a>
+            <div className="footer-main-content">
                 <h2 className="footer-header">Follow us:</h2>
                     <a href="##">
                         <FontAwesomeIcon icon={ faDiscord } className="footer-icons" />
@@ -32,7 +32,7 @@ function Footer(){
                     </a>
                 <p className="footer-paragraph">@2022 HACK_INDUSTRIES, 3D, UK</p>
             </div>
-            <div id="terms">
+            <div className="footer-terms">
                 <a className="footer-links" href="########">PRIVACY</a>
                     <span className="footer-line">|</span>
                 <a className="footer-links" href="#########" >TERMS OF USE</a>

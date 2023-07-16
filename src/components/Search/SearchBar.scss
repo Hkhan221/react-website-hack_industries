@@ -9,14 +9,6 @@ body {
     --color3: #222222;
 }
 
-//Phone View Search bar
-@media (max-width: 975px) {
-    .searchInput_Container {
-            visibility: hidden;
-            width: 0%;
-        }
-}
-
 //SearchBar
 .searchIcon {
     position: absolute;
