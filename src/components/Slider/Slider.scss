@@ -34,12 +34,11 @@
 
 //Slider Buttons
 .right-arrow {
-    position: absolute;
-    height: 80%;
-    width: 2.5%;
-    border-radius: 10px;
-    top: 9.70%;
-    right: 23.5rem;
+    height: 540px;
+    width: 35px;
+    margin-left: auto;
+    margin-bottom: 5px;
+    border-radius: 10px 0px 0px 10px;
     opacity: 50%;
     background-color: var(--color1);
     z-index: 10;
@@ -48,12 +47,11 @@
 }
 
 .left-arrow {
-    position: absolute;
-    height: 80%;
-    width: 2.5%;
-    border-radius: 10px;
-    top: 9.70%;
-    left: 23.5rem;
+    height: 540px;
+    width: 35px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 0px 10px 10px 0px;
     opacity: 50%;
     background-color: var(--color1);
     z-index: 10;
