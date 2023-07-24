@@ -21,7 +21,6 @@ if (!Array.isArray(slides) || slides.length <= 0) {
 return (
     <section className='slider'>
     <div className='right-arrow' onClick={prevSlide} />
-    <div className='left-arrow' onClick={nextSlide} />
     {SliderData.map((slide, index) => {
         return (
         <div
@@ -34,6 +33,7 @@ return (
         </div>
         );
     })}
+    <div className='left-arrow' onClick={nextSlide} />
     </section>
 );
 };
