@@ -13,7 +13,7 @@ function FAQ() {
   };
 
   return (
-    <div className="footer-font">
+    <div className="faq-font">
       <div class="faq-Image" alt="3DPrint-image" />
       <h2 className="faq-header">FAQ</h2>
       <p className="faq-paragraph">
@@ -92,6 +92,7 @@ function FAQ() {
             </p>
           </div>
         </ol>
+        <hr className="faq-gap" />
         {/* FAQ-Dropbox */}
         <div className="faq-wrapper">
           <div className="faq-accordion">
@@ -113,7 +114,6 @@ function FAQ() {
           </div>
         </div>
       </div>
-      <hr className="faq-gap" />
     </div>
   );
 }
