@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import Home from './pages/HomePage/Home.jsx'
 import Products from "./pages/Products/Products.jsx";
 import Contact from "./pages/Contact/Contact.jsx";
+// import Pill from "./components/Pill/Pill.jsx";
 import Slider from "./components/Slider/Slider.jsx";
 
 //CSS
